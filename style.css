@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.navbar{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.navbar ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+button{
+    background:blue;
+    color:white;
+    border:none;
+    padding:10px 20px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px;
+    background:lightgray;
+}
+
+.features{
+    padding:50px;
+}
+
+.box{
+    background:#f4f4f4;
+    padding:20px;
+    margin:20px 0;
+}
+
+.pricing{
+    padding:50px;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    margin:20px 0;
+}
+
+.contact{
+    padding:50px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input, textarea{
+    padding:10px;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
